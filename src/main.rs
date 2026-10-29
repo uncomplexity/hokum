@@ -25,6 +25,7 @@ mod card;
 mod cards;
 mod config;
 mod icons;
+mod omarchy_theme;
 mod script;
 mod settings;
 mod style;

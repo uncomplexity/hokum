@@ -74,8 +74,8 @@ click-through overlay and hosts the settings window. Launching `hokum` again sho
   only the config sets; themes are just looks). The
   settings window edits the same file, keeping your comments, and hand edits apply as you save.
   See [docs/theming.md](docs/theming.md).
-- **Themes:** eight built in (Soft, Crisp, Capsule, Ribbon, Terminal, Bubble, Signal, Pill), shown
-  in a gallery as real cards. Capsule, with app icons, is the default. Custom themes are written
+- **Themes:** nine built in (Soft, Crisp, Capsule, Ribbon, Terminal, Bubble, Signal, Pill, Omarchy), shown
+  in a gallery as real cards. Omarchy follows the current Omarchy theme's colours. Capsule, with app icons, is the default. Custom themes are written
   by your coding agent: the settings window gives you a prompt that points it at
   [hokum.app](https://hokum.app) (the same guide as [docs/themes.md](docs/themes.md)), the
   complete guide to the format. A Rhai script can rewrite
