@@ -384,6 +384,9 @@ pub fn stack<S: Cards>(notes: &[Note], s: &Behaviour, theme: &Theme, k: &Kit, mo
         .w(base.width)
         .gap(between)
         .on_hover_change(|s: &mut S, inside, _: &mut Tx| s.hover(inside));
+    if base.still() {
+        col = col.instant_changes();
+    }
     let more = more.map(|m| {
         let row = row().key("more-row").w_full().child(m);
         if right { row.justify_end() } else { row }

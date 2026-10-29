@@ -231,6 +231,8 @@ pub fn card<S: Cards>(n: &Note, theme: &Theme, k: &Kit, from_right: bool) -> El 
         Enter::Scale => (Transition::scale(0.9), Transition::scale(0.95)),
         Enter::Drop => (Transition::offset(0.0, -24.0).combined(Transition::opacity()), Transition::offset(0.0, -12.0).combined(Transition::opacity())),
     };
+    // Still cards land at once through the stack's `instant_changes`.
+    if t.still() { return root; }
     root.transition(Transition::asymmetric(enter, exit)).motion(Spring::new(t.motion.0, t.motion.1))
 }
 
