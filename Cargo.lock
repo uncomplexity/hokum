@@ -2490,7 +2490,7 @@ checksum = "6c20b6793b5c2fa6553b250154b78d6d0db37e72700ae35fad9387a46f487c97"
 [[package]]
 name = "rune"
 version = "0.0.1"
-source = "git+https://github.com/anomalyco/rune.git?rev=e5a6431ccbdbee8442921a3e28e25185f2707f12#e5a6431ccbdbee8442921a3e28e25185f2707f12"
+source = "git+https://github.com/uncomplexity/rune.git?rev=ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7#ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7"
 dependencies = [
  "arboard",
  "blake3",
@@ -2553,7 +2553,7 @@ dependencies = [
 [[package]]
 name = "rune-kit"
 version = "0.0.1"
-source = "git+https://github.com/anomalyco/rune.git?rev=e5a6431ccbdbee8442921a3e28e25185f2707f12#e5a6431ccbdbee8442921a3e28e25185f2707f12"
+source = "git+https://github.com/uncomplexity/rune.git?rev=ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7#ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7"
 dependencies = [
  "rune",
  "rune-motion",
@@ -2563,12 +2563,12 @@ dependencies = [
 [[package]]
 name = "rune-motion"
 version = "0.1.0"
-source = "git+https://github.com/anomalyco/rune.git?rev=e5a6431ccbdbee8442921a3e28e25185f2707f12#e5a6431ccbdbee8442921a3e28e25185f2707f12"
+source = "git+https://github.com/uncomplexity/rune.git?rev=ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7#ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7"
 
 [[package]]
 name = "rune-theme-opencode"
 version = "0.0.1"
-source = "git+https://github.com/anomalyco/rune.git?rev=e5a6431ccbdbee8442921a3e28e25185f2707f12#e5a6431ccbdbee8442921a3e28e25185f2707f12"
+source = "git+https://github.com/uncomplexity/rune.git?rev=ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7#ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7"
 dependencies = [
  "rune",
  "rune-kit",

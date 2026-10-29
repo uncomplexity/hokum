@@ -19,5 +19,13 @@ kdl = "6"
 rhai = "1"
 ureq = { version = "3", default-features = false, features = ["rustls"] }
 
+# Fork only: Rune at the same rev plus right-clicks on layer-shell overlays
+# (uncomplexity/rune, branch layer-shell-right-click). Drop this once
+# anomalyco/rune passes them.
+[patch."https://github.com/anomalyco/rune.git"]
+rune = { git = "https://github.com/uncomplexity/rune.git", rev = "ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7" }
+rune-kit = { git = "https://github.com/uncomplexity/rune.git", rev = "ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7" }
+rune-theme-opencode = { git = "https://github.com/uncomplexity/rune.git", rev = "ec102cabc39b2b26e5f14aeadc9cc0a6a48681d7" }
+
 [profile.release]
 codegen-units = 16
